@@ -5,30 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>My Tech Blog</title>
   <link rel="stylesheet" href="style.css"/>
-  <a href="attendance-logger.html">Attendance Logger Project</a>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>My Technical Blog</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Projects</a>
-      <a href="#">About</a>
-    </nav>
-  </header>
+  <div class="container">
+    <header>
+      <h1>My Technical Blog</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="attendance-logger.html">Attendance Logger</a>
+        <a href="#">About</a>
+      </nav>
+    </header>
 
-  <main>
-    <article>
-      <h2>Object Counter using ESP32-CAM</h2>
-      <p>This is a project I built using an ESP32-CAM and an FTDI module...</p>
-      <a href="#">Read more →</a>
-    </article>
-  </main>
+    <main>
+      <div class="card">
+        <h2>Attendance Logger using RFID</h2>
+        <p>This project logs student attendance using an RFID module and an Arduino.</p>
+        <a href="attendance-logger.html">Read more →</a>
+      </div>
 
-  <footer>
-    <p>© 2025 Your Name</p>
-  </footer>
+      <div class="card">
+        <h2>Object Counter using ESP32-CAM</h2>
+        <p>A project using ESP32-CAM and an FTDI module to count objects passing in front of the camera.</p>
+        <a href="#">Read more →</a>
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2025 Your Name</p>
+    </footer>
+  </div>
 </body>
 </html>
-
