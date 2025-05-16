@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Attendance Logger Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Building a Smart Attendance Logger with ESP32-CAM</h1>
+    <p><em>Showcasing my project and what I learned</em></p>
+  </header>
+
+  <main>
+    <section>
+      <h2>🔍 Overview</h2>
+      <p>
+        This project is an attendance logging system using the <strong>ESP32-CAM</strong> module and an <strong>FTDI programmer</strong>.
+        It captures images of individuals and logs their entry with a timestamp, ideal for small-scale access control or attendance tracking.
+      </p>
+    </section>
+
+    <section>
+      <h2>🧰 Components Used</h2>
+      <ul>
+        <li>ESP32-CAM</li>
+        <li>FTDI USB-to-Serial Adapter</li>
+        <li>Breadboard and jumper wires</li>
+        <li>MicroSD Card</li>
+        <li>Optional: PIR sensor for motion detection</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>⚙️ How It Works</h2>
+      <p>
+        The ESP32-CAM takes a snapshot when triggered (either by a button or a sensor). Each image is saved to the SD card with a unique timestamped filename.
+        Later, these records can be reviewed for attendance verification.
+      </p>
+    </section>
+
+    <section>
+      <h2>📸 Output Example</h2>
+      <p>Below is a sample image taken during testing:</p>
+      <img src="images/sample-image.jpg" alt="Sample attendance photo" width="300" />
+      <p><small>You can replace this with your actual image later.</small></p>
+    </section>
+
+    <section>
+      <h2>💡 What I Learned</h2>
+      <ul>
+        <li>How to program and flash the ESP32-CAM using FTDI</li>
+        <li>Managing file storage on an SD card using Arduino code</li>
+        <li>Basic time-stamping techniques (RTC or millis workaround)</li>
+        <li>Handling camera resolutions and image quality tradeoffs</li>
+        <li>Debugging power issues and connection errors</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📂 Project Files</h2>
+      <p>Find the full code and wiring diagram on my GitHub repository:</p>
+      <a href="https://github.com/YOUR_USERNAME/attendance-logger" target="_blank">
+        github.com/YOUR_USERNAME/attendance-logger
+      </a>
+    </section>
+
+    <section>
+      <h2>🚀 What’s Next?</h2>
+      <p>
+        I plan to improve this project by adding Wi-Fi logging and a basic web dashboard for real-time updates.
+        Stay tuned for future updates!
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Written by [Your Name] | © 2025</p>
+  </footer>
+</body>
+</html>
