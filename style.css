@@ -1,28 +1,35 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
   max-width: 800px;
-  margin: auto;
-  padding: 1rem;
-  background-color: #fdfdfd;
+  margin: 0 auto;
+  padding: 2rem 0;
 }
 
-header {
-  text-align: center;
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
   margin-bottom: 2rem;
 }
 
-nav a {
-  margin: 0 1rem;
+h1, h2, h3 {
+  color: #222;
+}
+
+a {
+  color: #0077cc;
   text-decoration: none;
-  color: #444;
 }
 
-article {
-  margin-bottom: 2rem;
-}
-
-footer {
-  text-align: center;
-  color: #888;
-  font-size: 0.9rem;
+a:hover {
+  text-decoration: underline;
 }
